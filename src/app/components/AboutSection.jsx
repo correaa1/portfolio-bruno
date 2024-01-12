@@ -32,10 +32,11 @@ const TAB_DATA = [
     title: "Certifications",
     id: "certifications",
     content: (
-      <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
-      </ul>
+        <ul className="list-disc pl-2">
+          <li>Desenvolvimento WEb</li>
+          <li>Serviços Aws</li>
+          <li>Deploy de aplicação</li>
+        </ul>
     ),
   },
 ];
