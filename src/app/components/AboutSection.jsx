@@ -33,16 +33,20 @@ const TAB_DATA = [
     id: "certifications",
     content: (
         <ul className="list-disc pl-2">
-          <li>Desenvolvimento WEb</li>
-          <li>Serviços Aws</li>
-          <li>Deploy de aplicação</li>
+            <li>Curso JavaScript Ninja - Udemy</li>
+            <li>O curso completo de Banco de Dados e SQL, sem mistérios! - Udemy</li>
+            <li>React Native e Typescript: Criação de Apps Android e iOS - Udemy</li>
+            <li>Criando API's RESTful utilizando TypeScript, Node.js, mongo - Udemy</li>
+            <li>React Native: Desenvolva APPs Nativas para Android e iOS - Udemy</li>
+            <li>React Native Criando aplicativos do zero ao avançado - Udemy</li>
+
         </ul>
     ),
   },
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("skills");
+    const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
