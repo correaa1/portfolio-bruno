@@ -36,7 +36,7 @@ const TAB_DATA = [
             <li>Curso JavaScript Ninja - Udemy</li>
             <li>O curso completo de Banco de Dados e SQL, sem mistérios! - Udemy</li>
             <li>React Native e Typescript: Criação de Apps Android e iOS - Udemy</li>
-            <li>Criando API's RESTful utilizando TypeScript, Node.js, mongo - Udemy</li>
+            <li>Criando APIs RESTful utilizando TypeScript, Node.js, mongo - Udemy</li>
             <li>React Native: Desenvolva APPs Nativas para Android e iOS - Udemy</li>
             <li>React Native Criando aplicativos do zero ao avançado - Udemy</li>
 
