@@ -9,10 +9,10 @@ const projectsData = [
     id: 1,
     title: "Autism Project",
     description: "Projeto para crianças com autismo",
-    image: "/images/projects/autism.png",
+    image: "/images/projects/autismPortfolio.png",
     tag: ["Todos", "Mobile"],
     gitUrl: "https://github.com/correaa1/AutismProject",
-    previewUrl: "https://github.com/correaa1/AutismProject",
+    previewUrl: "https://autismlearning.netlify.app/",
   },
   {
     id: 2,
@@ -95,6 +95,7 @@ const ProjectsSection = () => {
             transition={{ duration: 0.3, delay: index * 0.4 }}
           >
             <ProjectCard
+
               key={project.id}
               title={project.title}
               description={project.description}
