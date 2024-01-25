@@ -37,7 +37,7 @@ const projectsData = [
   {
     id: 4,
     title: "Ong Project",
-    description: "sistema de cadastro para uma ong",
+    description: "sistema fullstack de cadastro para uma ong",
     image: "/images/projects/ong.png",
     tag: ["Todos", "Web"],
     gitUrl: "https://github.com/correaa1/ong-frontend",
