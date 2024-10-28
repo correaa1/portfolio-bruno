@@ -22,9 +22,9 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Dev",
+                "Dev frontend",
                 2000,
-                "Dev Web",
+                "Dev backend",
                 2000,
 
               ]}
@@ -34,7 +34,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-        Freelancer a 1 ano, buscando experiencia e um espaço no mercado de trabalho.
+          Desenvolvedor com 2 anos de experiência como freelancer, atuando no desenvolvimento frontend e backend, entregando soluções completas e eficientes.
           </p>
           <div>
             <Link
@@ -44,7 +44,7 @@ const HeroSection = () => {
               Contato
             </Link>
             <Link
-              href="/pdf/Curriculo2023Att.pdf" target='_blank'
+              href="/pdf/curriculo2024-10-28.pdf" target='_blank'
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
