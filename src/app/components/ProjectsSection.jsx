@@ -43,6 +43,15 @@ const projectsData = [
     gitUrl: "https://github.com/correaa1/ong-frontend",
     previewUrl: "https://github.com/correaa1/ong-frontend",
   },
+  {
+    id: 5,
+    title: "Dino Jungle",
+    description: "OnePage do restaurante Dino Jungle",
+    image: "/images/projects/dinojungle.png",
+    tag: ["Todos", "Web"],
+    gitUrl: "https://github.com/correaa1/DinoJungle",
+    previewUrl: "https://dino-jungle.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
